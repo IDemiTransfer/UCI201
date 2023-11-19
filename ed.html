@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+header {
+    background-color: #000030;
+    color: #fff;
+    padding-top: 8px;
+    text-align: center;
+}
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    padding: 0 0 20px 0;
+    font-style: italic;
+}
+nav {
+    background-color: #000030;
+    text-align: left;
+    padding: 10px  0 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+body {
+    max-width: 2400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+}
+.client-logos {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.client-logos img {
+    flex: 0 0 auto;
+    width: 210px; 
+    /* Set the width of each client image */
+    height: auto;
+    margin-right: 20px; 
+    /* Margin between client images */
+}
+#ads {
+    padding: 40px;
+    margin: 20px;
+}
+
+
+.container {
+            border: 1px solid #000030;
+            padding: 20px;
+            display: inline-block;
+            margin: 20px;
+}
+.button {
+            padding: 10px;
+            background-color: #000030;
+            color: #fff;
+            border: none;
+        }
+h2 {
+    font-family: 'Arial', sans-serif; /* Choose a suitable font family */
+    font-size: 24px; /* Adjust the font size */
+    color: #000030; /* Set the text color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1px; /* Add letter spacing for a decorative effect */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+}
+button {
+    background-color: #000030; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; 
+    /* Smooth transition for background color */
+    box-shadow: 0px 0px 5px 0px #000030; 
+    /* Shadow effect: horizontal offset, vertical offset, blur radius, color */
+}
+
+footer {
+    background-color: #000030;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    font-size: 14px;
+}
+header, nav, section, footer {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+</style>
+    <title>XYZ Consultancy Firm</title>
+</head>
+
+<body>
+<nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <header>
+        <h1>XYZ Consultancy Firm</h1>
+        <p>Your Partner in Management Excellence</p>
+    </header>
+    <section id="hero">
+        <h2>Welcome to XYZ Consultancy Firm</h2>
+        <p>We provide expert management consultancy services to clients across Kenya and East Africa.</p>
+        <button>Contact Us</button>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Strategic Business Planning</li>
+            <li>Financial Consulting</li>
+            <li>Human Resources Management</li>
+            <li>Market Research and Analysis</li>
+        </ul>
+        <button>Explore All Services</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>XYZ Consultancy Firm has been serving clients since 2005. With a team of experienced consultants,
+            we help businesses achieve their goals and overcome challenges.</p>
+            <button>Know About Us</button>
+    </section>
+    <section id="clients">
+        <h2>Our Partners</h2>
+        <div class="client-logos">
+            <img src="https://i.ibb.co/9vqWt61/images-3.jpg" alt="Client 1 Logo" width="250" height="250">
+            <img src="https://i.ibb.co/GCmsKmm/images-2.png" alt="Client 2 Logo" width="250" height="250">
+            <img src="https://i.ibb.co/P4CPDvv/images-2.jpg" alt="Client 3 Logo"width="200" height="200">
+            <img src="https://i.ibb.co/7V9tTHr/images-4.png" width="200" height="200">
+        </div>
+    </section>
+    
+    <section id="ads">
+        <h2>Special Offers</h2>
+        <div class="container">
+            <img src="https://i.ibb.co/sW9mMy9/depositphotos-46713267-stock-photo-free-consult.webp"" width="200" height="200">
+            <p>Get a free consultation for your first project with us!</p>
+            <button class="button">Claim Offer</button>
+        </div>   
+        <div class="container">
+            <img src="https://i.ibb.co/tzNJ3Hn/images-1.png" alt="Special Offer 2" width="200" height ="200">
+            <p>Exclusive discounts for long-term partnerships.</p>
+            <button class="button">Learn More</button> 
+        </div>
+    </section>
+    <section> </section>
+    <footer>
+        <p>&copy; 2023 XYZ Consultancy Firm. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
